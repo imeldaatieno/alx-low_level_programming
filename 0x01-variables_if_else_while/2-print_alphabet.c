@@ -1,39 +1,19 @@
-nclude <stdio.h>
-
+#include <stdio.h>
 #include <stdlib.h>
-
 #include <time.h>
-
 /**
+ * main - Execute
  *
- *  * main - Execute
- *
- *   *
- *
- *    * Return: 0 (Success)
- *
- *     */
-
+ * Return: 0 (Success)
+*/
 int main(void)
-
 {
+int alf;
 
-	int alf;
+for (alf = 'a'; alf <= 'z'; alf++)
+{
+putchar(alf);
+}
 
-
-
-	for (alf = 'a'; alf <= 'z'; alf++)
-
-	{
-
-		putchar(alf);
-
-	}
-
-	putchar('\n');
-
-
-
-	return (0);
-
+return (0);
 }
