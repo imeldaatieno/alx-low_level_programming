@@ -11,10 +11,8 @@ int main(void)
 int alf;
 
 for (alf = 'a'; alf <= 'z'; alf++)
-{
-putchar(alf);
 }
-putchar('\n')
+putchar('\n');
 
 return (0);
 }
