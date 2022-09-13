@@ -13,10 +13,10 @@ int main(void)
 	char a, i;
 
 	for (a = 'a'; a <= 'f'; a++)
-		putchar(i);
+		putchar('i');
 
 	for (a = 'a'; a <= 'f'; a++)
 		putchar(a);
 	putchar('\n');
 	return (0);
-}
+i}
