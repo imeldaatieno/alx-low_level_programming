@@ -3,20 +3,22 @@
 #include <time.h>
 
 /**
- * main - Execute
+ * main -Execute
  *
  * Return: Always 0 (Success)
  *
  */
 int main(void)
 {
-	char a, i;
+	char a, i,;
 
-	for (a = 'a'; a <= 'f'; a++)
-		putchar('i');
+	for (i = '0'; i <= '9'; i++)
+		putchar(i);
 
 	for (a = 'a'; a <= 'f'; a++)
 		putchar(a);
+
 	putchar('\n');
 	return (0);
-i}
+}
+
