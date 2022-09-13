@@ -6,7 +6,7 @@
  * main - Execute
  *
  * Return: always 0 (Success)
- *
+ */
  * int main(void)
  * {
  * char i;
