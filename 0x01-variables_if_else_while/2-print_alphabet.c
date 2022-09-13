@@ -1,5 +1,5 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /**
  * main - Execute
@@ -8,11 +8,13 @@
 */
 int main(void)
 {
-int alf;
+	int alf;
 
-for (alf = 'a'; alf <= 'z'; alf++)
-{
-putchar('\n');
+	for (alf = 'a'; alf <= 'z'; alf++)
+	{
+		putchar(alf);
+	}
+	putchar('\n');
 
-return (0);
+	return (0);
 }
