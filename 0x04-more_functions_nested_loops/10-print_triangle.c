@@ -1,5 +1,5 @@
-#include <stdio.h>  
-#include "main.h" 
+#include <stdio.h>
+#include "main.h"
 
 /**
 *print_triangle - prints a triangle
@@ -25,7 +25,7 @@ for (inc2 = 0; inc2 < inc1; inc2++)
 putchar('#');
 }
 
-if (inc1 == size
+if (inc1 == size)
 {
 continue;
 }
