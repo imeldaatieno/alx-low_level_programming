@@ -8,8 +8,7 @@
  * Return: pointer to allocated memory or normal process termination if erro
  */
 void *malloc_checked(unsigned int b)
-{
-	
+{	
 	void *p;
 
 	p = malloc(b);
