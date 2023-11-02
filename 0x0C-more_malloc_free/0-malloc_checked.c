@@ -1,3 +1,8 @@
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
+
 /**
  * main - a function that allocates memory using malloc
  *
